@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/** Home CSS **/
+.home{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.home li{
+    margin-left: -10px;
+}
+
+.home li a{
+    font-size: 19px;
+    color: blue;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.home li a:hover{
+    color: #ccc;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/** Menu CSS **/
+.menu{
+width: 100%;
+background-color: #cbc6c6;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+}
+
+
+.menu li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.menu li a{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.menu li a:hover{
+    color: #1b1b1b;
+}
+
+/** Salud Coppel **/
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coppelSalud{
+    width: 50%;
+    padding: 250px 200px;
+}
+
+.coppelSalud h1{
+    padding-top: 20px;
+}
+
+.buttonFarmacia{
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+	background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color: #3d94f6;
+	border-radius: 6px;
+	border: 1px solid #337fed;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: px 1px 0px #1570cd;
+}
+
+.buttonFarmacia:hover {
+	background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color: #1e62d0;
+}
+.buttonFarmacia:active {
+	position: relative;
+	top: 5px;
+}
+
+.imgSalud{
+    width: 50%;
+    padding: 180px 100px;
+}
+
+
+/** Familia **/
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coppelSalud2{
+    width: 50%;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.texto1{
+    width: 50%;
+    padding-right: 200px;
+    padding-top: 80px;
+    font-size: 17px;
+    color: black;
+}
+
+.section3{
+    padding-top: 80px;
+    padding-left: 150px;
+    font-size: 17px;
+    color: black;
+
+}
+
+/** Servicios **/
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 100px;
+    background-color: #d2ddec;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 100px;
+    background-color: #d2ddec;
+}
+
+.contenedor1div{
+    width: 25%;
+}
+
+.contenedor1div2{
+    width: 75%;
+    padding-right: 80px;
+}
+
+.contenedor1div2 h1{
+    padding-bottom: 10px;
+}
+
+.buttonComprar{
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+	background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color: #3d94f6;
+	border-radius: 6px;
+	border: 1px solid #337fed;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: px 1px 0px #1570cd;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
