@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section Hot fashion */
+
+.hotFashion{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.textHotFashion{
+    width: 65%;
+    text-align: right;
+}
+
+.hotFashion p{
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonHotFashion{
+    width: 25%;
+    background-color: red;
+    padding-left: 10px;
+}
+
+.buttonComprar{
+    box-shadow: inset 0px 1px 0px 0px #dddedf;
+	background: linear-gradient(to bottom, #dddedf 5%, #dddedf 100%);
+	background-color: #dddedf;
+	border-radius: 6px;
+	border: 1px solid #dddedf;
+	display: inline-block;
+	cursor: pointer;
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 1px 8px;
+	text-decoration: none;
+	text-shadow: px 1px 0px #dddedf;
+    height: 13px;
+}
+
+/* Section Home Nav */
+
+.home{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.home ul{
+    list-style: none;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home li a{
+    font-size: 12px;
+    color: blue;
+    text-decoration: none;
+    transition: 0.3s ease;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home li a:hover{
+    color: #ccc;
+}
+
+.cuadroTexto{
+    font-family: sans-serif; 
+    font-size: 13px; 
+    font-weight: 40;
+    background:#ffffff;
+    border: none;
+    padding: 10px 60px;
+}
+
+.buttonSearch{
+    background-color: rgb(92, 92, 234);
+    padding-left: 10px;
+    padding: 2px 10px;
+}
+
+
+/* Seccion Departamentos */
+
+.seccionDepartamento{
+    width: 100%;
+    background-color: #cbc6c6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Departamentos ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin-left: 10px;
+    
+}
+
+.Departamentos ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.Departamentos ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
