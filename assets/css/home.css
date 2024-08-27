@@ -252,7 +252,7 @@ padding-bottom: 20px;
     width: 50%;
     padding-left: 150px;
     padding-top: 100px;
-    background-color: #d2ddec;
+    background-color: #fffffff8;
 }
 
 .contenedor2{
@@ -261,7 +261,8 @@ padding-bottom: 20px;
     width: 50%;
     padding-left: 50px;
     padding-top: 100px;
-    background-color: #d2ddec;
+    background-color: #fffffff8;
+    padding-bottom: 100px; 
 }
 
 .divImagenFarmaciaDigital{
@@ -290,7 +291,7 @@ padding-bottom: 20px;
     padding-bottom: 10px;
 }
 
-.buttonComprar{
+.buttonComprarServicios{
     box-shadow: inset 0px 1px 0px 0px #97c4fe;
 	background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
 	background-color: #3d94f6;
@@ -308,11 +309,38 @@ padding-bottom: 20px;
     height: 50px;
 }
 
-.buttonComprar:hover {
+
+.buttonComprarServicios:hover {
 	background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
 	background-color: #1e62d0;
 }
-.buttonComprar:active {
+.buttonComprarServicios:active {
 	position: relative;
 	top: 5px;
 }
+
+/* Seccion Beneficios Coppel Salud */
+
+.titleBeneficioCoppelSalud{
+   width: 100%;
+   justify-content: center;
+   text-align: center;
+   padding-top: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #84beff;
+}
+
+.BeneficiosCoppelSalud{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84beff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+
+
